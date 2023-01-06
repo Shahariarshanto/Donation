@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:wght@400;700&family=Rubik+Bubbles&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* default design */
@@ -56,7 +59,7 @@
   padding: 10px 18px;
 }
 .donation-section {
-  height: 100vh;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,5 +184,18 @@
   font-size: 25px;
   border: none;
   background: orangered;
-  margin-left: 0;
+  margin-left: -4px;
+}
+.main-footer {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.main-footer > h1 {
+  font-family: "Moon Dance", cursive;
+  font-size: 48px;
+}
+.main-footer > p {
+  margin-top: 15px;
+
+  font-family: "Rubik Bubbles", cursive;
 }
