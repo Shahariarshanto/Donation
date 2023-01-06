@@ -82,7 +82,7 @@
   font-size: 30px;
   border-radius: 8px;
 }
-.donation-amount input {
+.donation-amount > input {
   margin-bottom: 50px 0;
   margin: 50px 0;
   padding: 8px 10px;
@@ -156,4 +156,30 @@
   max-width: 500px;
   margin: 0 25px;
   width: 100%;
+}
+/* Get My Updates */
+.get-updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.subs-sec {
+  background-color: bisque;
+  padding: 80px 195px;
+  border-radius: 6px;
+}
+.subs-sec input[type="email"] {
+  padding: 15px 22px;
+  font-size: 25px;
+  border: none;
+  background: lightgray;
+}
+.subs-sec input[type="submit"] {
+  padding: 15px 22px;
+  font-size: 25px;
+  border: none;
+  background: orangered;
+  margin-left: 0;
 }
